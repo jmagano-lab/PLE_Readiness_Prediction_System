@@ -1,0 +1,26 @@
+# PLE Readiness Prediction System
+Reproducible modeling notebook.
+## 1. Problem Understanding
+This is a supervised classification task predicting readiness level: Ready, Moderately Ready, or At Risk.
+## 2. Data Understanding
+Load the uploaded workbook, clean the OVERALL RESULT sheet, and create a data dictionary.
+## 3. EDA, Preprocessing, Feature Engineering
+The notebook checks class imbalance, leakage risk, missingness, feature distributions, PCA, and feature selection.
+## 4. Model Implementation
+Compare Logistic Regression, Decision Tree, Random Forest, Gradient Boosting/XGBoost fallback, and SVM.
+## 5. Explainability and Ethics
+Use feature importance, optional SHAP, and bias audit templates when demographic variables become available.
+from pathlib import Path
+import pandas as pd, numpy as np
+BASE = Path('..')
+df = pd.read_csv(BASE/'data/ple_readiness_cleaned.csv')
+df.head()
+df['readiness_level'].value_counts(normalize=True).mul(100).round(1)
+pd.read_csv(BASE/'reports/model_leaderboard.csv')
+pd.read_csv(BASE/'reports/permutation_importance.csv').head(10)
+# Optional SHAP explainability, if shap is installed
+# import shap
+# import joblib
+# model = joblib.load(BASE/'models/best_readiness_model.joblib')
+# explainer = shap.Explainer(model.named_steps['model'])
+# Note: preprocess features before SHAP for tree models if using the full pipeline.
