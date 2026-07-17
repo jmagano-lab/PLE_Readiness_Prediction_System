@@ -1,0 +1,10 @@
+{
+  "n_students": 229,
+  "class_distribution": {
+    "At Risk": 157,
+    "Moderately Ready": 50,
+    "Ready": 22
+  },
+  "best_model": "Random Forest",
+  "leakage_note": "The label is derived from total_average, so external PLE outcome validation is required."
+}

@@ -1,0 +1,11 @@
+feature,mutual_info
+later_score,0.8137209311475523
+early_score,0.748841583932373
+assessment_consistency,0.6567596622024947
+diagnostic,0.6423711473501315
+mock_to_diagnostic_gap,0.6410611036820091
+mock_boards,0.639885997224009
+progress_evaluation,0.5508807132757605
+pre_test,0.5443686663707006
+improvement_index,0.12579527346531338
+post_test,0.04882092093232959
