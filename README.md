@@ -31,3 +31,26 @@ streamlit run dashboard_app.py
 - `src/recommendations.py` — weak-area and intervention recommendation functions
 - `dashboard_app.py` — Streamlit dashboard prototype
 - `models/best_readiness_model.joblib` — trained model artifact
+
+
+P.S.
+
+This project represents one of the most challenging and rewarding learning experiences I have undertaken.
+
+I am a medical doctor by profession, not a software engineer or computer scientist. Before starting this capstone, I had little to no background in programming, machine learning, or software development. Throughout this project, I dedicated significant time to learning Python, data science, machine learning concepts, and application development in order to transform an idea into a working system.
+
+While I utilized modern AI-assisted development tools to help me understand concepts, generate code drafts, and improve documentation, every component of this project was carefully studied, tested, modified, validated, and integrated by me. This capstone reflects my commitment to continuous learning and demonstrates that professionals from non-computer science backgrounds can successfully build practical AI solutions through perseverance, curiosity, and disciplined study.
+
+Dataset Availability
+
+The dataset used in this project is intentionally not included in this repository.
+
+The data were provided by PLE REAP Medicine under a confidentiality agreement and consist of records from the 2025 batch of reviewees. To protect the privacy of the students and comply with the agreed data-sharing conditions, the original dataset cannot be publicly distributed.
+
+For this reason:
+
+The repository does not include the original dataset.
+No personally identifiable student information is shared in this repository.
+Anyone wishing to reproduce or extend this research should use their own appropriately collected and ethically approved dataset or obtain the necessary authorization from the data owner.
+
+Thank you for taking the time to review this project. I hope it serves not only as a machine learning application for medical education but also as an example that determination and lifelong learning can bridge disciplines and lead to meaningful innovation.
