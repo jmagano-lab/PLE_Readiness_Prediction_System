@@ -8,7 +8,7 @@ This project represents one of the most challenging and rewarding learning exper
 
 I am a medical doctor by profession, not a software engineer or computer scientist. Before starting this capstone, I had little to no background in programming, machine learning, or software development. Throughout this project, I dedicated significant time to learning Python, data science, machine learning concepts, and application development in order to transform an idea into a working system.
 
-While I utilized modern AI-assisted development tools to help me understand concepts, generate code drafts, and improve documentation, every component of this project was carefully studied, tested, modified, validated, and integrated by me. This capstone reflects my commitment to continuous learning and demonstrates that professionals from non-computer science backgrounds can successfully build practical AI solutions through perseverance, curiosity, and disciplined study.
+While I utilized modern AI-assisted development tools to help me understand concepts, and improve documentation, every component of this project was carefully studied, tested, modified, validated, and integrated by me. This capstone reflects my commitment to continuous learning and demonstrates that professionals from non-computer science backgrounds can successfully build practical AI solutions through perseverance, curiosity, and disciplined study.
 
 Dataset Availability
 
